@@ -6,3 +6,9 @@ What is React
 2. Developed at Facebook in 2011
 3. Currently most widely used Js library for frontend development
 4. Used to create single page application 
+
+2. Working of DOM
+
+1. Browser takes HTML and create DOM.
+2. Js help us modify DOM based on user actions or events.
+3. In big applications, working with DOM becomes more complicated.

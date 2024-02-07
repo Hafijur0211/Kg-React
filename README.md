@@ -31,3 +31,7 @@ Js vs React
 
 1. Js is imperative: you define steps to reach your desired state
 2. React is Declarative: You define the target UI state and then react figure out how to reach that state
+
+Introduction to components
+
+1. components help us write reusable, modular and better organized 

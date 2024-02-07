@@ -35,3 +35,4 @@ Js vs React
 Introduction to components
 
 1. components help us write reusable, modular and better organized 
+2. React applications is a tree of components with app components as the root bringing everything together.

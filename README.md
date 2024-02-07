@@ -26,3 +26,8 @@ Working of React
 2. React creates a web page with small and reusable components
 3. React will take care of creating and updating DOM elements
 4. IT saves a lot of time
+
+Js vs React
+
+1. Js is imperative: you define steps to reach your desired state
+2. React is Declarative: You define the target UI state and then react figure out how to reach that state

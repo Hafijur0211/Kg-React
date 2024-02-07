@@ -12,3 +12,10 @@ What is React
 1. Browser takes HTML and create DOM.
 2. Js help us modify DOM based on user actions or events.
 3. In big applications, working with DOM becomes more complicated.
+
+Problem with JavaScript
+
+1. React has a simpler mental model 
+2. Js is cumbersome
+3. Js is Error-prone
+4. Js is Hard to maintain

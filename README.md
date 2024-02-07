@@ -19,3 +19,10 @@ Problem with JavaScript
 2. Js is cumbersome
 3. Js is Error-prone
 4. Js is Hard to maintain
+
+Working of React
+
+1. No need to worry about querying and updating DOM
+2. React creates a web page with small and reusable components
+3. React will take care of creating and updating DOM elements
+4. IT saves a lot of time

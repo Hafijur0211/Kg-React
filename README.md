@@ -70,6 +70,8 @@ Need of IDE
    3. Version control
    4. Error checking
 
+---
+
 Create a React App
 
 1. Official tool is CRA(Create a React App).
@@ -77,6 +79,8 @@ Create a React App
 3. Vite produce Quick and Small bundle size.
 4. Vite: Use npm run dev to launch dev server.
 5. Use npm start for CRA.
+
+--- 
 
 Project Structure
 
@@ -88,6 +92,8 @@ Project Structure
    3. styles: CSS or stylesheets.
 4. package.json contain information about this project like name, version, dependencies on other react packages.
 5. vite.config.js contain vite configuration.
+
+---
 
 File extensions
 

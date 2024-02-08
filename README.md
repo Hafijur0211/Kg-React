@@ -36,3 +36,10 @@ Introduction to components
 
 1. components help us write reusable, modular and better organized 
 2. React applications is a tree of components with app components as the root bringing everything together.
+
+What is IDE
+
+1. IDE stands for Integrated Development Environment.
+2. Software suite that consolidates basic tools required for software development.
+3. Central hub for coding, finding problems, and testing.
+4. Design to improve developer efficiency.

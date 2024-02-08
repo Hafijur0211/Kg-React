@@ -1,5 +1,12 @@
-function App (){
-  return <h1>Hello world</h1>
+import KgButton from "./KgButton";
+
+function App() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <KgButton />
+    </div>
+  );
 }
 
 export default App;

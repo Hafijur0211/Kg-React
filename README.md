@@ -135,3 +135,10 @@ What is JSX
 2. Not HTML: Through it resemble HTML, you are actually writing JSX, which stands for JavaScript XML.
 3. Conversion : JSX get converted to regular JavaScript.
 4. Babeljs.io/repl is tool that allows you to see how JSX is transformed into JavaScript.
+
+Exporting components
+
+1. Enable the use of components in other parts
+2. Default Export : Allow exporting a single component as the default from a module.
+3. Named Export: Allow exporting multiple items from a module.
+4. Importing : To use an exported component, you need to import it in the destination file using import syntax.

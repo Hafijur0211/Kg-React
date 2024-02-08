@@ -1,5 +1,8 @@
 function Hello() {
-    return <h3>Hello this is hello components</h3>;
+
+    let myName = "Hafijur"
+
+    return <h3>Hello ji My name is {myName}</h3>;
 }
 
 export default Hello;

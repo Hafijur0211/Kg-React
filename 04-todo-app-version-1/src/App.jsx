@@ -1,6 +1,6 @@
 function App() {
   return (
-    <center classNameName="todo-container">
+    <center className="todo-container">
       <h1>TODO App</h1>
       <div className="container text-center">
         <div className="row">

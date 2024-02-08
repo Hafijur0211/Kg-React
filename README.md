@@ -152,3 +152,10 @@ Other important points
 1. Naming : Must be capitalized; Lowercase for default HTML.
 2. HTML : Unlike vanilla javascript where you can't directly write HTML, in React you can enable HTML-like syntax using JSX.
 3. CSS : In React, CSS can directly imported into components files, allowing for modular and component-specific styling.
+
+---
+
+Dynamic Component
+
+1. Dynamic Content : JSX allows the creation of dynamic and interactive UI components.
+2. JavaScript Expression : Using {}, we can embed any JS expression directly within JSX. This includes variables, function calls and more.

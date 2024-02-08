@@ -179,6 +179,6 @@ Including Bootstrap
 4. Open-Source : Free with community support.
 
    1. Install 
-   npm i bootstrap@5.3.2
+   - npm i bootstrap@5.3.2
    2. Import
-   import "bootstrap/dist/css/bootstrap.min.css";
+   - import "bootstrap/dist/css/bootstrap.min.css";

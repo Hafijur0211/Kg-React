@@ -126,3 +126,12 @@ Class Vs Function Components
 - Can use Hooks for state and effects.
 - Simpler and more concise
 - More Popular.
+
+---
+
+What is JSX
+
+1. Definition : JSX determines how the UI will look whenever the component is used.
+2. Not HTML: Through it resemble HTML, you are actually writing JSX, which stands for JavaScript XML.
+3. Conversion : JSX get converted to regular JavaScript.
+4. Babeljs.io/repl is tool that allows you to see how JSX is transformed into JavaScript.

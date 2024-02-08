@@ -43,3 +43,15 @@ What is IDE
 2. Software suite that consolidates basic tools required for software development.
 3. Central hub for coding, finding problems, and testing.
 4. Design to improve developer efficiency.
+
+Need of IDE
+
+1. Streamline development.
+2. Increase productivity.
+3. Simplifies complex tasks.
+4. Offers a unified workspace.
+5. IDE Feature 
+1. Code Autocomplete
+2. Syntax highlighting
+3. Version control
+4. Error checking

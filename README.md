@@ -144,3 +144,11 @@ Exporting components
 2. Default Export : Allow exporting a single component as the default from a module.
 3. Named Export: Allow exporting multiple items from a module.
 4. Importing : To use an exported component, you need to import it in the destination file using import syntax.
+
+--- 
+
+Other important points
+
+1. Naming : Must be capitalized; Lowercase for default HTML.
+2. HTML : Unlike vanilla javascript where you can't directly write HTML, in React you can enable HTML-like syntax using JSX.
+3. CSS : In React, CSS can directly imported into components files, allowing for modular and component-specific styling.

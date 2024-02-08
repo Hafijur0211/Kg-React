@@ -55,3 +55,11 @@ a. Code Autocomplete
 b. Syntax highlighting
 c. Version control
 d. Error checking
+
+Create a React App
+
+1. Official tool is CRA(Create a React App).
+2. Vite is modern tool to create a React Project.
+3. Vite produce Quick and Small bundle size.
+4. Vite: Use npm run dev to launch dev server.
+5. Use npm start for CRA.

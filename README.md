@@ -51,7 +51,7 @@ Need of IDE
 3. Simplifies complex tasks.
 4. Offers a unified workspace.
 5. IDE Feature 
-1. Code Autocomplete
-2. Syntax highlighting
-3. Version control
-4. Error checking
+a. Code Autocomplete
+b. Syntax highlighting
+c. Version control
+d. Error checking

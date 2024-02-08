@@ -88,3 +88,15 @@ Project Structure
    3. styles: CSS or stylesheets.
 4. package.json contain information about this project like name, version, dependencies on other react packages.
 5. vite.config.js contain vite configuration.
+
+File extensions
+
+.Js
+- Stand for JavaScript
+- Contains regular javascript code 
+- Used for general logic and components
+
+.JSX
+- Stand for javascript XML
+- Combined javascript with HTML-like tags
+- Make it easier to design UI components

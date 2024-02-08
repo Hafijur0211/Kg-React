@@ -168,3 +168,17 @@ Reusable Components
 2. Consistency : Reuse components ensure UI consistency and reduce the chance of discrepancies.
 3. Efficiency : Reduces development time and effort by avoiding duplication of code.
 4. Maintainability : Changes made to a reused component reflect everywhere its used simplifying updates and bug fixes.
+
+---
+
+Including Bootstrap
+
+1. Responsive : Mobile-first design for all device sizes.
+2. Components : Pre-styled elements like buttons and navbars.
+3. Customizable : Consistent look across browsers.
+4. Open-Source : Free with community support.
+
+   1. Install 
+   npm i bootstrap@5.3.2
+   2. Import
+   import "bootstrap/dist/css/bootstrap.min.css";

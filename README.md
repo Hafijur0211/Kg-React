@@ -5,11 +5,11 @@ What is React
 1. Javascript library to build Dynamic and intractive user interfaces
 2. Developed at Facebook in 2011
 3. Currently most widely used Js library for frontend development
-4. Used to create single page application 
+4. Used to create single page application
 
 ---
 
- Working of DOM
+Working of DOM
 
 1. Browser takes HTML and create DOM.
 2. Js help us modify DOM based on user actions or events.
@@ -19,7 +19,7 @@ What is React
 
 Problem with JavaScript
 
-1. React has a simpler mental model 
+1. React has a simpler mental model
 2. Js is cumbersome
 3. Js is Error-prone
 4. Js is Hard to maintain
@@ -44,7 +44,7 @@ Js vs React
 
 Introduction to components
 
-1. components help us write reusable, modular and better organized 
+1. components help us write reusable, modular and better organized
 2. React applications is a tree of components with app components as the root bringing everything together.
 
 ---
@@ -64,7 +64,7 @@ Need of IDE
 2. Increase productivity.
 3. Simplifies complex tasks.
 4. Offers a unified workspace.
-5. IDE Feature 
+5. IDE Feature
    1. Code Autocomplete
    2. Syntax highlighting
    3. Version control
@@ -80,7 +80,7 @@ Create a React App
 4. Vite: Use npm run dev to launch dev server.
 5. Use npm start for CRA.
 
---- 
+---
 
 Project Structure
 
@@ -98,11 +98,31 @@ Project Structure
 File extensions
 
 .Js
+
 - Stand for JavaScript
-- Contains regular javascript code 
+- Contains regular javascript code
 - Used for general logic and components
 
 .JSX
+
 - Stand for javascript XML
 - Combined javascript with HTML-like tags
 - Make it easier to design UI components
+
+---
+
+Class Vs Function Components
+
+1. Class Components.
+
+- Stateful: Can manage state.
+- Lifecycle: Access to lifecycle methods
+- Verbose: More boilerplate code.
+- Not Preferred anymore.
+
+2. Function Components.
+
+- Initially stateless.
+- Can use Hooks for state and effects.
+- Simpler and more concise
+- More Popular.

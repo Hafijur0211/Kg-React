@@ -9,8 +9,11 @@ function App() {
     <center className="todo-container">
       <AppName />
       <AddTodo />
+      <div className="items-container">
       <TodoItem1 />
       <TodoItem2 />
+      </div>
+
     </center>
   );
 }

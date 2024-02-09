@@ -145,7 +145,7 @@ Exporting components
 3. Named Export: Allow exporting multiple items from a module.
 4. Importing : To use an exported component, you need to import it in the destination file using import syntax.
 
---- 
+---
 
 Other important points
 
@@ -178,9 +178,12 @@ Including Bootstrap
 3. Customizable : Consistent look across browsers.
 4. Open-Source : Free with community support.
 
-   1. Install 
+   1. Install
+
    - npm i bootstrap@5.3.2
+
    2. Import
+
    - import "bootstrap/dist/css/bootstrap.min.css";
 
 ---
@@ -202,3 +205,14 @@ Allow grouping of multiple elements without extra DOM nodes.
    2. Short: <>...</>
 
 ---
+
+Map Methods
+
+1. Purposes: Render lists from array data.
+2. JSX Elements: Transform array items into JSX.
+3. Inline Renderings: Directly inside JSX
+   - {items.map(item => <li key={item.id}>{item.name}</li>)}
+4. Key Prop: Assign unique key for optimized re-renders.
+   - <div key={item.id}>{item.name}</div>
+
+--- 

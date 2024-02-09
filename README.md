@@ -182,3 +182,23 @@ Including Bootstrap
    - npm i bootstrap@5.3.2
    2. Import
    - import "bootstrap/dist/css/bootstrap.min.css";
+
+---
+
+Fragments
+
+1. What
+
+Allow grouping of multiple elements without extra DOM nodes.
+
+2. Why
+
+   - Return multiple elements without a wrapping parent.
+   - Cleaner DOM and consistent styling.
+
+3. How
+
+   1. <React.Fragment>...</React.Fragment>
+   2. Short: <>...</>
+
+---

@@ -1,11 +1,12 @@
 import "./App.css";
+import AppName from "./components/AppName";
 
 function App() {
   return (
     <center className="todo-container">
-      <h1>Todo App</h1>
+      <AppName />
+
       <div className="container text-center">
-        
         <div className="row">
           <div className="col-6">
             <input type="text" placeholder="Enter Todo Here" />
@@ -39,7 +40,6 @@ function App() {
             </button>
           </div>
         </div>
-
       </div>
     </center>
   );

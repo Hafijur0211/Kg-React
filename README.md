@@ -215,6 +215,8 @@ Map Methods
  {items.map(item => <li key={item.id}>{item.name}</li>)} 
 ```
 4. Key Prop: Assign unique key for optimized re-renders.
-``` <div key={item.id}>{item.name}</div> ```
+``` 
+<div key={item.id}>{item.name}</div> 
+```
 
 --- 

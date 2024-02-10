@@ -220,3 +220,19 @@ Map Methods
 ```
 
 --- 
+
+Conditional Rendering
+
+1. Conditional Rendering
+   - Displaying content based on certain conditional.
+   - Allows for dynamic user interfaces.
+
+2. Method 
+   - if-else statements: Choose between two blocks of content
+   - Ternary operator: Quick way to choose between two options
+   - Logical operator: Useful for rendering content when a condition is true.
+
+3. Benefits
+   - Enhances user experience.
+   - Reduces unnecessary rendering.
+   - Makes apps more interactive and responsive.

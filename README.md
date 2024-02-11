@@ -259,3 +259,14 @@ Key Points
 Examples
 
 ``` <Header title="My App" /> ```
+
+--- 
+
+Css Modules
+
+1. Localized class names to avoid global conflicts.
+2. Styles are scoped to individual components.
+3. Help in creating components-specific styles.
+4. Automatically generated unique class names.
+5. Promotes modular and maintainable Css.
+6. Can use alongside global Css when needed.

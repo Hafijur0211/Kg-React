@@ -236,3 +236,26 @@ Conditional Rendering
    - Enhances user experience.
    - Reduces unnecessary rendering.
    - Makes apps more interactive and responsive.
+
+---
+
+Passing Data via Props
+
+Props in React
+- Short for properties
+- Mechanism for passing data.
+- Read-only by default
+
+Usage
+- Pass data from parent to child components.
+- Make component reusable.
+- Define as attribute in JSX.
+
+Key Points
+- Data flows one-way (downwards).
+- Prop are immutable.
+- Used for communication between components.
+
+Examples
+
+``` <Header title="My App" /> ```

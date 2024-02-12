@@ -2,13 +2,16 @@ import "./App.css";
 
 function App() {
   // let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
-  let foodItems = []
- 
+  let foodItems = [];
+
+  let emptyMessage =
+    foodItems.length === 0 ? <h3>I am still hungry.</h3> : null;
+
   return (
     <>
       <h1>Healthy Food</h1>
       {/* Ternary Operator */}
-      {foodItems.length === 0 ? <h3>I am still hungry.</h3> : null}
+      {emptyMessage}
       <ul className="list-group">
         {foodItems.map((item) => (
           <li key={item} className="list-group-item">

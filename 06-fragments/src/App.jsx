@@ -1,8 +1,9 @@
+import React from "react";
 import "./App.css";
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <h1>Healthy Food</h1>
       <ul className="list-group">
         <li className="list-group-item">An item</li>
@@ -11,7 +12,7 @@ function App() {
         <li className="list-group-item">A fourth item</li>
         <li className="list-group-item">And a fifth one</li>
       </ul>
-    </div>
+    </React.Fragment>
   );
 }
 

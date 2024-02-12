@@ -1,8 +1,8 @@
 import "./App.css";
 
 function App() {
-  let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
-  // let foodItems = [];
+  // let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
+  let foodItems = [];
 
   return (
     <>

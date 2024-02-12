@@ -1,15 +1,16 @@
 import "./App.css";
 
 function App() {
+  let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
   return (
     <>
       <h1>Healthy Food</h1>
       <ul className="list-group">
-        <li className="list-group-item">Dal</li>
-        <li className="list-group-item">Green Vegetable</li>
-        <li className="list-group-item">Roti</li>
-        <li className="list-group-item">Salad</li>
-        <li className="list-group-item">Milk</li>
+        {foodItems.map((item) => (
+          <li key={item} className="list-group-item">
+            {item}
+          </li>
+        ))}
       </ul>
     </>
   );

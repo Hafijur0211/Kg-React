@@ -3,7 +3,7 @@ import ErrorMessage from "./components/ErrorMessage";
 import FoodItems from "./components/FoodItems";
 
 function App() {
-  // let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
+  let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
   // let foodItems = [];
 
   return (

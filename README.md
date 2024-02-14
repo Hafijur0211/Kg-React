@@ -281,3 +281,13 @@ Passing Children
 4. Accessed with props.children.
 5. Can be any content: string, number, JSX, or components.
 6. Enhanced components compatibility and reusability.
+
+``` 
+function Container(props){
+   return (
+      <div className="container-styles" >
+      {props.children}
+      </div>
+   );
+}
+```

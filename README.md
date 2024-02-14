@@ -291,3 +291,10 @@ function Container(props){
    );
 }
 ```
+
+```
+<Container>
+<h1>Welcome to my App</h1>
+<p>This content is passed as children to the Container component.</p>
+</Container>
+```

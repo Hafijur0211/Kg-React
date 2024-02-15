@@ -298,3 +298,13 @@ function Container(props){
 <p>This content is passed as children to the Container component.</p>
 </Container>
 ```
+
+--- 
+
+Handling Events
+
+1. React events use camelCase, e.g onClick.
+2. Uses synthetic events, not direct browser events.
+3. Events handler can be function or arrow functions.
+4. Use onChange for controlled form inputs.
+5. Avoid inline arrow functions in JSX for performance.

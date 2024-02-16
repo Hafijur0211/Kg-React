@@ -2,7 +2,7 @@ import styles from "./Item.module.css";
 
 const Item = ({ foodItem }) => {
 
-  const handleBuyButtonClicked =(foodItem)=>{
+  const handleBuyButtonClicked =()=>{
     console.log(`${foodItem} being bought`)
   }
 
@@ -10,7 +10,7 @@ const Item = ({ foodItem }) => {
     <li className={`${styles["kg-item"]} list-group-item`}>
       <span className={styles['kg-span']}>{foodItem}</span>
       <button className={`${styles.button} btn btn-info`}
-      onClick={()=> handleBuyButtonClicked(foodItem) } >Buy</button>
+      onClick={handleBuyButtonClicked } >Buy</button>
     </li>
     
   );

@@ -6,6 +6,7 @@ const FoodInput = () => {
             type="text"
             placeholder="Enter Food Item Here"
             className={styles.foodInput}
+            onChange={(event) => console.log(event)}
         />
     );
 };

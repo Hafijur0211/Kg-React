@@ -308,3 +308,14 @@ Handling Events
 3. Events handler can be function or arrow functions.
 4. Use onChange for controlled form inputs.
 5. Avoid inline arrow functions in JSX for performance.
+
+--- 
+
+Passing Function via Props
+
+1. Pass dynamic behaviour between components.
+2. Enable upward communication between child to parent.
+3. Commonly used for events handling.
+4. Parent define a function, child invoke it.
+5. Enhances component interactivity.
+6. Example ``` <Button onClick ={handleClick}>```

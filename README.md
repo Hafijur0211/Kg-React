@@ -319,3 +319,18 @@ Passing Function via Props
 4. Parent define a function, child invoke it.
 5. Enhances component interactivity.
 6. Example ``` <Button onClick ={handleClick}>```
+
+--- 
+
+Managing State
+
+1. State represent data that change over time.
+2. State is local and private to the component.
+3. State change the components to re-render.
+4. For functional components, use the useState hook.
+5. React functions that start with word use are called hooks.
+6. Hooks should only be used inside components.
+7. Parent components can pass state down to child via props.
+8. Lifting state up: share state between components by moving it to their closest common ancestor.
+
+---

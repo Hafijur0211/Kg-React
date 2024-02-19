@@ -8,13 +8,19 @@ import { useState } from "react";
 function App() {
   // let foodItems = ["Sabzi", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
   // let foodItems = [];
- 
-  let [textToShow, setTextState] = useState();
-  let [foodItems, setFoodItems] = useState(["Salad", "Green Vegetable", "Roti"])
 
-  const handleOnChange = (event) => {
-    console.log(event.target.value);
-    setTextState(event.target.value);
+  let [textToShow, setTextState] = useState();
+  let [foodItems, setFoodItems] = useState([
+    "Salad",
+    "Green Vegetable",
+    "Roti",
+  ]);
+
+  const onKeyDown = (event) => {
+    if (event.key === "Enter") {
+      let newFoodItem = event.target.value;
+      console.log("Food value entered is " + newFoodItem);
+    } 
   };
 
   return (
@@ -22,7 +28,7 @@ function App() {
       <Container>
         <h1 className="food-heading">Healthy Food</h1>
         <ErrorMessage items={foodItems} />
-        <FoodInput handleOnChange={handleOnChange} />
+        <FoodInput handleKeyDown={onKeyDown} />
         {/* <p>{textToShow}</p> */}
         <FoodItems items={foodItems} />
       </Container>

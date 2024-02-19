@@ -12,10 +12,11 @@ function App() {
   let textStateArr = useState("Food Item Entered by User");
   let textToShow = textStateArr[0];
   let setTextState = textStateArr[1];
+  console.log(`Current value of textState: ${textToShow}`);
 
   const handleOnChange = (event) => {
     console.log(event.target.value);
-    textToShow = event.target.value;
+    setTextState(event.target.value);
   };
 
   return (

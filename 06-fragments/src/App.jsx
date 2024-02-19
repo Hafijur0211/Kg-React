@@ -19,8 +19,9 @@ function App() {
   const onKeyDown = (event) => {
     if (event.key === "Enter") {
       let newFoodItem = event.target.value;
-      console.log("Food value entered is " + newFoodItem);
-    } 
+      let newItems = [...foodItems, newFoodItem];
+      setFoodItems(newItems); 
+    }
   };
 
   return (

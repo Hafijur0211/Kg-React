@@ -10,17 +10,14 @@ function App() {
   // let foodItems = [];
 
   let [textToShow, setTextState] = useState();
-  let [foodItems, setFoodItems] = useState([
-    "Salad",
-    "Green Vegetable",
-    "Roti",
-  ]);
+  let [foodItems, setFoodItems] = useState([]);
 
   const onKeyDown = (event) => {
     if (event.key === "Enter") {
       let newFoodItem = event.target.value;
+      event.target.value = "";
       let newItems = [...foodItems, newFoodItem];
-      setFoodItems(newItems); 
+      setFoodItems(newItems);
     }
   };
 
@@ -28,8 +25,8 @@ function App() {
     <>
       <Container>
         <h1 className="food-heading">Healthy Food</h1>
-        <ErrorMessage items={foodItems} />
         <FoodInput handleKeyDown={onKeyDown} />
+        <ErrorMessage items={foodItems} />
         {/* <p>{textToShow}</p> */}
         <FoodItems items={foodItems} />
       </Container>

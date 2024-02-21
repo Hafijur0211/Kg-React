@@ -334,3 +334,22 @@ Managing State
 8. Lifting state up: share state between components by moving it to their closest common ancestor.
 
 ---
+
+State Vs Props
+
+State
+
+- Local and mutable data within a components.
+- Initialized within the components.
+- Can change over time.
+- Cause re-render when updated.
+- Managed using useState in functional components.
+
+Props
+
+- Passed into a component from its parent.
+- Read-only (immutable) within the receiving components.
+- Allow parent-to-child component communication.
+- Changes in props can also cause a re-render.
+
+---

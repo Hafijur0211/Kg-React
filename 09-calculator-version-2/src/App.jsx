@@ -10,7 +10,7 @@ function App() {
   return (
     <div className={styles.calculator}>
       <Display displayValue={calVal} />
-      <ButtonsContainer />
+      <ButtonsContainer onButtonClick={() => console.log("button clicked.")} />
     </div>
   );
 }

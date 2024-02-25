@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function App() {
   const [calVal, setCalVal] = useState("");
-  const onButtonClick = (event) => console.log(event);
+  const onButtonClick = (buttonText) => console.log(buttonText);
 
   return (
     <div className={styles.calculator}>
